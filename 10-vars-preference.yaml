@@ -11,6 +11,6 @@
   tasks:
   - name: cehck preference
     vars:
-      wihses: "morning from TASK varibales"
+      wishes: "morning from TASK varibales"
     ansible.builtin.debug:
       msg: "Hello, good {{wishes}}"
