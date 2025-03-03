@@ -4,7 +4,7 @@
     wishes: "morining from PLAY variable"
   vars_files:
   - vars.yaml
-  vars_promt:
+  vars_prompt:
   - name: wishes
     prompt: please enter wishes
     private: false
