@@ -11,6 +11,10 @@
     ansible.builtin.debug:
       msg: "user info: {{user}}"
 
+  - name: create user
+    ansible.builtin.command: useradd expenase
+    when: user.rc !=0 #condtion
+
   - name: say hello
     ansible.builtin.debug:
       msg: "Hello"
