@@ -14,3 +14,8 @@
       wishes: "morning from TASK varibales"
     ansible.builtin.debug:
       msg: "Hello, good {{wishes}}"
+
+
+    # 1. Arguments
+    # 2. task level varibales
+    # 3.
