@@ -6,3 +6,4 @@
       course: "join devops"
     ansible.builtin.debug:
       msg: "Hi,we are learnig {{course}} from trainer {{trainer}} duration is {{duration}}"
+
