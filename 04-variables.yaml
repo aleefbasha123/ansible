@@ -2,8 +2,8 @@
   hosts: localhost
   vars:
     course: Ansible
-    triner: "sivakumar"
-    Duration: 120 hours
+    triner: "siva"
+    Duration: 12 hours
   tasks:
   - name: print infromation
     ansible.builtin.debug:
