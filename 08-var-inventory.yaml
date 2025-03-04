@@ -1,0 +1,6 @@
+- name: using prompt
+  hosts: localhost
+  tasks:
+  - name: print infomation
+    ansible.builtin.debug:
+      msg: "Hi,we are learning {{course}} trainer is {{trainer}} course duartion is {{duartion}}"
