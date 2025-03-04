@@ -15,3 +15,11 @@
     #   wishes: "Morningfrom TASK variables"
     ansible.builtin.debug:
       msg: "hello, Good {{wishes}}"
+
+      # 1.Arguments
+      # 2.task veriables
+      # 3.variables files
+      # 4.prompt
+      # 5.play level
+      # 6.Inventory
+      # 7.Role level
