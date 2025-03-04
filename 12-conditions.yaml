@@ -10,6 +10,10 @@
   - name: print user infromation
     ansible.builtin.debug:
       msg: "user info:{{user}}"
+
+  - name: create user
+    ansible.builtin.command: useradd expence
+    when: user.rc
   - name: say hello
     ansible.builtin.debug:
       msg: "Hello"
