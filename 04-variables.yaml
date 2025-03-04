@@ -4,7 +4,7 @@
     course: "ansible"
     trianer: "sivakumar"
     duration: "120 hours"
-  task:
+  tasks:
   - name: print information 
     ansible.builtin.debug:
      msg: "Hi we are learning {{course}} from trainer {{trianer}} course duration is {{duration}}"
