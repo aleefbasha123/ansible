@@ -1,4 +1,4 @@
-- name: using prompt
+- name: varibles from inventory
   hosts: localhost
   tasks:
   - name: print infomation
