@@ -1,0 +1,12 @@
+- name: install pakages
+  hosts: web
+  become: yes
+  tasks:
+  - name: install pakages
+    anisble.builtin.dnf:
+      name: "{{ item }}"
+      state: latest
+    loop:
+    - mysql
+    - nginx
+    - postfix
