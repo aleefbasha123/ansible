@@ -2,7 +2,7 @@
   hosts: web
   become: yes
   tasks:
-  - name: install pakages
+  - name: install packages
     anisble.builtin.dnf:
       name: "{{ item }}"
       state: latest
